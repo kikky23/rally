@@ -12,6 +12,16 @@ body{
 }
 nav{
     cursor: pointer !important;
+    /* background-color: rgb(0, 0, 0) !important; */
+    justify-content: space-between !important;
+
+}
+.navbar-collapse{
+    flex-grow: 0.5 !important;
+}
+
+.navbar-expand-lg .navbar-nav{
+    gap: 30px !important;
 }
 
 .hero{
@@ -77,12 +87,15 @@ nav{
 
 .form-box{
     width: 50%;
-    /* height: 50vh; */
-    margin: 2px;
+    height: 50vh;
+    background
+    margin: 20px;
     background: transparent;
     padding: 5px;
-    position: relative; 
+    /* position: relative;  */
     border-radius: 40px;
+    align-items: center;
+
 }
 
 .button-box{
@@ -153,6 +166,7 @@ span{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    margin-top: 200px;
     
 }
 .footer li{
